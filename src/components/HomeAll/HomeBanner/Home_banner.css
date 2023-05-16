@@ -1,0 +1,6 @@
+.Home_banner {
+  min-height: min-content;
+}
+
+@media (max-width: 576px) {
+}

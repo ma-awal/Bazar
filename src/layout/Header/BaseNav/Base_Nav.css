@@ -1,0 +1,8 @@
+.navbar {
+  background: var(--color-green) !important;
+}
+.navbar a {
+  font-size: var(--text-base);
+  font-weight: var(--fw-regular);
+  color: var(--color-white-1) !important;
+}

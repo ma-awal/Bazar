@@ -1,0 +1,19 @@
+.add_btn .bag {
+  background: transparent !important;
+  color: var(--color-black-1) !important;
+  text-transform: capitalize;
+  font-weight: var(--fw-500);
+  padding: 0.2rem;
+  font-size: var(--text-base);
+}
+
+.add_btn .btn_container button {
+  background: var(--red1-ff0000);
+  border-radius: 0;
+  padding: 0px 8px;
+  color: white;
+}
+.add_btn .btn_container button:nth-child(2) {
+  background-color: var(--red-3);
+  color: red;
+}

@@ -1,0 +1,57 @@
+.Store {
+  min-height: 85vh;
+  padding: 3rem 0rem;
+}
+.Store h2 {
+  color: var(--color-light-3);
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-weight: var(--fw-700);
+  text-transform: uppercase;
+}
+.Store .search_bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid var(--color-light-2);
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  padding: 0.7rem 0.3rem;
+}
+.Store .search_bar span {
+  text-align: center;
+  color: var(--color-light-3);
+
+  height: 100%;
+  padding: 0rem 2rem;
+}
+.Store .search_bar input {
+  flex: 1;
+  height: 100%;
+}
+.Store .search_bar button a {
+  margin-right: 0.4rem !important;
+}
+.Store .search_bar button {
+  background: var(--color-light-1);
+  color: var(--white1-ffffff);
+  height: 100%;
+  padding: 0rem 0.4rem;
+  justify-content: ;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.Store .single_location span {
+  color: var(--gray2-7d7d7d);
+}
+.Store .single_location p {
+  margin-bottom: 0;
+  font-size: var(--text-lg);
+  color: var(--gray2-7d7d7d);
+}
+.Store .single_location a {
+  color: var(--red1-ff0000) !important;
+}

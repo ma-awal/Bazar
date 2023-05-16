@@ -1,0 +1,25 @@
+.offer h2 {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  font-weight: var(--fw-700);
+  color: var(--color-light-3);
+  background-attachment: fixed !important;
+}
+
+.offer .tag {
+  font-size: var(--text-sm);
+  color: var(--color-light-3);
+}
+.offer .price {
+  font-size: var(--text-base);
+  color: var(--color-black-2);
+  font-weight: var(--fw-600);
+}
+
+.offer .price span {
+  font-size: var(--text-sm);
+}

@@ -1,0 +1,13 @@
+.Toggle_nav {
+  background: var(--color-white-2);
+}
+.Toggle_nav a {
+  color: var(--color-black-2) !important;
+  text-decoration: none;
+  padding: 0.4rem 0rem;
+  font-size: var(--text-sm);
+  transition: transform 0.3s linear;
+}
+.Toggle_nav a:hover {
+  color: red !important;
+}

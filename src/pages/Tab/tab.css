@@ -1,0 +1,31 @@
+.tab {
+  min-height: 85vh;
+}
+.tab .btn {
+  border-radius: 0;
+  font-size: var(--text-base);
+  font-weight: var(--fw-regular);
+  color: var(--gray2-7d7d7d) !important;
+  line-height: 2rem;
+}
+.tab .nav-link.active {
+  border-right: 1px solid red !important;
+  color: var(--black1-263238) !important;
+}
+.tab h2 {
+  color: var(--black2-474c5a);
+  font-weight: var(--fw-semi);
+}
+
+.tab p {
+  font-size: var(--text-base);
+  font-weight: var(--text-regular);
+  color: var(--gray2-7d7d7d);
+  line-height: 1.7rem;
+}
+
+@media (max-width: 992px) {
+  .tab {
+    max-height: min-content;
+  }
+}

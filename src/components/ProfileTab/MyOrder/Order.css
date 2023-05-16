@@ -1,0 +1,10 @@
+.Order h2 {
+  font-weight: var(--fw-700);
+  color: var(--color-light-3);
+}
+
+.Order .card p {
+  font-size: var(--text-base);
+  font-weight: var(--fw-400);
+  color: var(--color-light-3);
+}

@@ -1,0 +1,25 @@
+.box_item {
+  background: var(--color-white-2);
+  padding: 1rem;
+  border-radius: 12px;
+}
+.box_item div:nth-child(2) {
+  flex: 40%;
+}
+.box_item span {
+  color: var(--color-black-2);
+  font-size: var(--text-sm);
+}
+.box_item h6 {
+  margin-top: 1rem;
+  color: var(--color-black-2);
+}
+.box_item a {
+  color: var(--color-green) !important;
+  border: 1px solid var(--color-green) !important;
+  transition: var(--transition);
+}
+.box_item a:hover {
+  color: var(--color-white-1) !important;
+  background: var(--color-green) !important;
+}

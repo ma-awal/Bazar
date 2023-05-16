@@ -1,0 +1,43 @@
+.Search_slide {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  transform: translateX(-100%);
+  transition: transform 0.5s ease-in-out;
+  overflow-y: auto;
+  height: 100%;
+  z-index: 10;
+  background: var(--color-white-1) !important;
+  padding: 1rem;
+}
+
+.Search_slide.active {
+  transform: translateX(0);
+  z-index: 100;
+}
+.Search_slide .input_nav {
+  background: var(--color-white-3) !important;
+  border: 1px solid #ddd;
+}
+.Search_slide h6 {
+  color: var(--color-light-3) !important;
+}
+.Search_slide .input_nav input {
+  width: 80%;
+  background: transparent;
+  font-size: var(--text-sm);
+}
+.Search_slide .input_nav button {
+  background: var(--color-green);
+  color: white !important;
+  padding: 0.5rem;
+  font-weight: var(--fw-700);
+}
+.Search_slide a {
+  color: var(--color-light-3) !important;
+  font-family: var(--fw-500);
+  padding: 8px, 24px, 8px, 24px;
+}

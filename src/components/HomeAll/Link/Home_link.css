@@ -1,0 +1,8 @@
+.Link a {
+  font-size: 14px !important;
+  border: 1px solid var(--color-green) !important;
+}
+.Link h2 {
+  color: var(--color-light-3);
+  font-weight: var(--fw-700);
+}

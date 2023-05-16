@@ -1,0 +1,30 @@
+.Blog_post {
+  min-height: 85vh;
+}
+
+.Blog_post h2 {
+  color: var(--color-light-3) !important;
+
+  font-weight: var(--fw-700);
+}
+
+.Blog_post .info h6 {
+  color: var(--color-black-2) !important;
+  font-size: var(--text-base);
+  font-weight: var(--fw-500);
+}
+.Blog_post .info p {
+  color: var(--color-light-3) !important;
+  font-size: var(--text-sm) !important;
+  font-weight: var(--fw-400);
+}
+.Blog_post .date span {
+  color: var(--color-black-2) !important;
+  font-size: var(--text-sm) !important;
+  font-weight: var(--fw-600) !important;
+}
+@media (max-width: 576px) {
+  .Blog_post {
+    min-height: min-content;
+  }
+}

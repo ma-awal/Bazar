@@ -1,0 +1,27 @@
+.Bar_slide {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem;
+  bottom: 0;
+  transform: translateX(-100%);
+  transition: transform 0.5s ease-in-out;
+  overflow-y: hidden !important;
+  height: 100% !important;
+  z-index: 10;
+  background: var(--color-white-1) !important;
+}
+.Bar_slide.is-Active {
+  transform: translateX(0);
+  z-index: 100;
+}
+
+.Bar_slide .bar_link li {
+  line-height: 2rem;
+}
+.Bar_slide .bar_link li a {
+  color: var(--color-light-3) !important;
+  font-size: var(--text-base);
+  text-decoration: none;
+}

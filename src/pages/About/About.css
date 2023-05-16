@@ -1,0 +1,17 @@
+.About .heading h2 {
+  color: var(--color-light-3);
+  font-weight: var(--fw-700);
+}
+.About .heading p {
+  color: var(--color-black-2);
+  font-weight: var(--fw-400);
+  font-size: var(--text-sm);
+}
+
+.About strong {
+  color: var(--color-light-3) !important;
+}
+.About .info h6 {
+  color: var(--color-light-3);
+  font-weight: var(--fw-600);
+}

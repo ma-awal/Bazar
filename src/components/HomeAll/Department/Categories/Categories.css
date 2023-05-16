@@ -1,0 +1,21 @@
+.Search h5 {
+  color: var(--color-light-3);
+  font-weight: var(--fw-500);
+}
+
+.Search button {
+  /* padding: 8px, 24px !important;
+  border-radius: 0 !important;
+  background: transparent;
+  font-size: var(--text-sm) !important;
+  font-weight: var(--fw-500);
+  color: var(--color-black-2);
+  border: 0 !important;
+  text-transform: uppercase; */
+}
+
+@media (max-width: 576px) {
+  .Search button {
+    font-size: 14px !important;
+  }
+}

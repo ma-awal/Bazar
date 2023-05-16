@@ -1,0 +1,33 @@
+.Client_say {
+  min-height: min-content;
+}
+
+.Client_say .box {
+  background-color: var(--color-white-3);
+}
+.Client_say .box img {
+  background-color: var(--color-white-2);
+  border-radius: 0rem 0rem 1rem;
+  width: 50%;
+}
+.Client_say h2 {
+  color: var(--color-light-3) !important;
+  font-weight: var(--fw-700);
+}
+
+.Client_say .info h6 {
+  color: var(--color-black-2) !important;
+  font-size: var(--text-base);
+  font-weight: var(--fw-400);
+}
+.Client_say p {
+  color: var(--color-light-3) !important;
+  font-size: var(--text-sm) !important;
+  font-weight: var(--fw-400);
+}
+
+@media (max-width: 768px) {
+  .Client_say {
+    min-height: min-content;
+  }
+}

@@ -1,0 +1,30 @@
+.Blogs {
+  z-index: -100;
+}
+
+.Blogs .blogs_banner h2 {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  font-weight: var(--fw-700);
+  color: var(--color-light-3);
+}
+
+.Blogs .popular h2 {
+  border-bottom: 3px solid var(--color-light-1);
+  padding-bottom: 1rem;
+  position: relative;
+}
+.Blogs .popular h2::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  bottom: 0;
+  width: 40%;
+  background: var(--color-green);
+  height: 3px;
+}

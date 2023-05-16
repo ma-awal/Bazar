@@ -1,0 +1,42 @@
+.form {
+  background: #f4f4f4;
+}
+.form h3 {
+  color: var(--color-black-2);
+  font-weight: var(--fw-500);
+  background: #f4f4f4;
+  margin-bottom: 1rem;
+}
+.form h5 {
+  color: var(--color-black-2);
+  margin-bottom: 1rem;
+}
+.form .mb-4 {
+  background: var(--color-white-1);
+  border-radius: 8px;
+  padding: 0rem 0.3rem;
+}
+
+.form .mb-4 input,
+textarea {
+  font-size: var(--text-sm);
+  font-weight: var(--fw-400);
+  color: var(--color-light-3);
+  border: none !important;
+  box-shadow: none;
+}
+.form .mb-4 textarea {
+  box-shadow: none;
+  font-size: var(--text-sm);
+  font-weight: var(--fw-400);
+  color: var(--color-light-3);
+
+  resize: none;
+}
+
+.form .send_btn {
+  background: var(--color-green) !important;
+  color: var(--color-white-1);
+  font-size: var(--text-xl);
+  font-weight: var(--fw-500);
+}

@@ -1,0 +1,49 @@
+.product-tracker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.progress-bar {
+  position: relative;
+  width: 80%;
+  height: 2px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress-bar-range {
+  position: absolute;
+  top: ;
+  left: 0;
+  height: 100%;
+
+  border-bottom: 2px dashed var(--color-light-3);
+  transition: width 0.5s ease-in-out;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin-top: -26px;
+}
+
+.step {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  border: 2px solid var(--color-light-3) !important;
+  background: var(--color-white-1) !important;
+  border-radius: 50%;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.step.completed {
+  z-index: 1000;
+  background-color: #fff;
+}

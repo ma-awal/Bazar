@@ -1,0 +1,50 @@
+.Contact h2 {
+  color: var(--color-light-3);
+  font-weight: var(--fw-700);
+}
+.Contact form {
+  line-height: 3rem;
+}
+
+.Contact form label {
+  color: var(--color-light-3);
+  font-size: var(--text-base);
+  font-weight: var(--fw-600);
+  display: block;
+}
+.Contact form input {
+  border: 1px solid var(--color-light-2);
+  padding: 0.5rem 0.3rem;
+  color: var(--color-light-3);
+  font-size: var(--text-sm);
+}
+
+.Contact form .text_area {
+  border: 1px solid var(--color-light-2) !important;
+  box-shadow: none !important;
+  padding: 0.2rem;
+  color: var(--color-light-3);
+  font-size: var(--text-sm);
+  resize: none;
+}
+.Contact form button {
+  background: var(--color-green);
+  color: white !important;
+  padding: 0rem 2rem;
+}
+
+.Contact .box h6 {
+  color: var(--color-black-2);
+  font-size: var(--text-lg);
+  margin-bottom: 0rem;
+}
+.Contact .box {
+  border-radius: 12px;
+  border: 1px solid var(--color-light-2);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.Contact .box span {
+  color: var(--color-light-3);
+  font-size: var(--text-base);
+}

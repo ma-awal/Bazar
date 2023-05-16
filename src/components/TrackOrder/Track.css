@@ -1,0 +1,100 @@
+.Track {
+  position: relative;
+}
+.Track .Left_cont h2 {
+  font-size: var(--text-5xl);
+  font-weight: var(--fw-700);
+  color: var(--color-black-2);
+}
+.Track .Left_cont p {
+  font-size: var(--text-base) !important;
+  font-weight: var(--fw-400);
+  color: var(--color-light-3);
+}
+.Track .input_track {
+  border: 1px solid var(--color-light-2);
+  border-radius: 4px;
+  padding: 0;
+}
+
+.Track input {
+  font-size: var(--text-base);
+  color: var(--color-light-3);
+  width: 70%;
+}
+.Track .input_track button {
+  background: var(--color-light-1);
+  color: var(--color-black-1);
+  flex-shrink: 0;
+  padding: 0.4rem;
+  font-weight: var(--fw-500);
+}
+
+.Track .voice {
+  font-size: var(--text-2xl);
+  color: var(--color-black-2);
+}
+.Track .voice span {
+  color: var(--color-light-3);
+  font-size: 24px;
+}
+
+.Track .cont li:nth-of-type(1) {
+  font-size: var(--text-lg);
+  color: var(--color-light-3);
+}
+.Track .cont li:nth-of-type(2) {
+  font-size: var(--text-3xl);
+  color: var(--color-black-2);
+  font-weight: var(--fw-600);
+}
+.Track .cont li:nth-of-type(3) {
+  font-size: var(--text-lg);
+  color: var(--color-black-1);
+}
+.Track .cont li:nth-of-type(3) > span {
+  color: var(--color-black-2) !important;
+  font-weight: var(--fw-400);
+  font-size: var(--text-base) !important;
+}
+.Track .cont li:nth-of-type(4) {
+  font-size: var(--text-lg);
+  color: var(--color-light-3);
+  font-weight: var(--fw-400);
+}
+.Track .pro h3 {
+  color: var(--color-black-2);
+  font-size: var(--text-3xl);
+  font-weight: var(--fw-700);
+}
+
+@media (max-width: 768px) {
+  .Track .Left_cont h2 {
+    font-size: 32px;
+  }
+  .Track .Left_cont p {
+    font-size: 14px;
+  }
+
+  .Track ul li:nth-of-type(1) {
+    font-size: 14px;
+  }
+  .Track ul li:nth-of-type(2) {
+    font-size: 14px;
+  }
+  .Track ul li:nth-of-type(3) {
+    font-size: 16px;
+  }
+  .Track ul li:nth-of-type(3) > span {
+    font-size: 14px;
+  }
+  .Track ul li:nth-of-type(4) {
+    font-size: 14px;
+  }
+  .Track .pro h3 {
+    font-size: 24px;
+  }
+  .Track .voice span {
+    font-size: 18px;
+  }
+}

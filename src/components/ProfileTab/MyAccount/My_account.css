@@ -1,0 +1,45 @@
+.My_account h2 {
+  font-weight: 700;
+  color: var(--color-light-3) !important;
+}
+.My_account h6 {
+  font-weight: 600;
+  color: var(--color-light-3) !important;
+}
+.My_account .icon {
+  font-size: var(--text-2xl);
+  width: 60px;
+  height: 60px;
+  color: var(--color-white-1);
+  background: var(--color-green);
+  padding: 0.5rem;
+}
+
+.My_account .input_filed {
+  line-height: 3rem;
+}
+
+.My_account label {
+  color: var(--color-light-3);
+  font-size: var(--text-base);
+  font-weight: var(--fw-600);
+}
+.My_account input {
+  border: 1px solid var(--color-light-1);
+  border-radius: 0 !important;
+  background: var(--color-white-2) !important;
+  font-size: var(--text-sm);
+  font-weight: var(--fw-400);
+  padding: 0.6rem 0.6rem;
+  color: var(--color-light-3);
+}
+.My_account input:focus {
+  box-shadow: none;
+}
+.My_account button {
+  margin-top: 3rem;
+  background: var(--color-green) !important;
+  font-size: var(--text-lg);
+  font-weight: var(--fw-500);
+  color: var(--color-white-2) !important;
+}

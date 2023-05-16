@@ -1,0 +1,24 @@
+.Favorit {
+}
+
+.Favorit h2 {
+  font-weight: 700;
+  color: var(--color-light-3) !important;
+}
+.Favorit .info p {
+  color: var(--color-black-2);
+  font-size: var(--text-sm);
+  margin-bottom: 4px;
+}
+.Favorit .info a {
+  color: var(--color-light-3) !important;
+}
+.Favorit .price {
+  color: var(--color-black-2);
+  font-weight: var(--fw-400);
+  font-size: var(--text-base) !important;
+}
+
+.Favorit .price span {
+  color: var(--color-light-3) !important;
+}

@@ -1,0 +1,22 @@
+.custom-dots li button:before {
+  color: red !important;
+}
+.custom-dots li {
+  margin: 0;
+}
+
+.slider h2 {
+  border-bottom: 3px solid var(--gray6-b5b6c2);
+  padding-bottom: 1rem;
+  position: relative;
+}
+.slider h2::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  bottom: 0;
+  width: 40%;
+  background: red;
+  height: 3px;
+}

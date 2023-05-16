@@ -1,0 +1,53 @@
+.Input_field .search_input {
+  flex: 1;
+  background: var(--color-light-1) !important;
+}
+
+.Input_field .search_input input {
+  background: var(--color-light-1) !important;
+  box-shadow: none;
+  font-size: var(--text-sm);
+  font-weight: var(--fw-regular);
+  color: var(--color-black-1);
+  padding: 10px, 30px, 10px, 30px;
+  border: 0;
+}
+
+.Input_field .search_input input:focus {
+  box-shadow: none !important;
+}
+.Input_field .input-group {
+  flex: 0.2;
+}
+
+.input-group .drop_btn {
+  background: var(--color-light-1) !important;
+  box-shadow: none;
+  border: none;
+  outline: none;
+  font-size: var(--text-sm);
+  font-weight: var(--fw-400);
+  color: var(--color-light-3);
+  padding: 10px, 15px, 10px, 15px;
+}
+.input-group .drop_btn:focus {
+  box-shadow: none;
+}
+.input-group .dropdown-menu {
+  border-radius: 0;
+  padding: 0.5rem;
+  line-height: 32px;
+  width: 250px;
+}
+
+.input-group .dropdown-menu li a {
+  text-decoration: none;
+  color: var(--color-light-3) !important;
+  font-size: var(--text-sm);
+  font-weight: var(--fw-400);
+  transition: var(--transition);
+}
+.input-group .dropdown-menu li a:hover {
+  color: red !important;
+  font-weight: 500;
+}

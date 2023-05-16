@@ -1,0 +1,18 @@
+.Delivery .add {
+  background: var(--color-light-1);
+  color: var(--color-black-2) !important;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+}
+
+.Adress .info h6 {
+  font-size: var(--text-base);
+  color: var(--color-light-3);
+}
+
+.Adress .info span {
+  font-size: var(--text-sm) !important;
+  color: var(--color-light-3);
+}

@@ -1,0 +1,51 @@
+.user_login {
+  z-index: 9999;
+  backdrop-filter: blur(5px);
+  background-color: #a6a6a64b;
+  display: none;
+}
+form h2 {
+  color: var(--color-light-3);
+  font-weight: var(--fw-500);
+}
+.user_login.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user_login form {
+  padding: 2.5rem;
+  border-radius: 1rem;
+  background: white;
+}
+
+.user_login .sign_up {
+  color: var(--color-light-3);
+  font-size: var(--text-sm);
+  font-weight: var(--fw-400);
+}
+.user_login .sign_up > a {
+  color: var(--color-green) !important;
+}
+.user_login form label {
+  font-size: var(--text-base);
+  color: var(--color-light-3);
+}
+
+.user_login form input {
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: var(--text-sm);
+  font-weight: var(--fw-400);
+}
+.user_login form button {
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  color: var(--color-white-1);
+  border: 1px solid var(--color-light-3);
+  background: var(--color-green);
+}
+.fs-5 {
+  color: var(--color-light-3);
+}

@@ -1,0 +1,21 @@
+.Mid_nav {
+  background: var(--color-white-2);
+}
+.Mid_nav .nav_brand {
+  font-weight: var(--fw-700);
+  font-size: var(--text-3xl);
+  color: var(--color-light-3) !important;
+}
+
+.user_modal,
+.user_cart,
+.user_profile,
+a {
+  font-size: var(--text-sm);
+  color: var(--color-black-2) !important;
+}
+
+.Mid_nav .user_cart:hover .cart {
+  visibility: visible;
+  transform: translateY(-10px);
+}

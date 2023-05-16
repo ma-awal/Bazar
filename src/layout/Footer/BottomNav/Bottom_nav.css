@@ -1,0 +1,11 @@
+footer .bottom_nav {
+  z-index: 100;
+  background: var(--color-white-1);
+}
+footer .bottom_nav a {
+  text-decoration: none;
+}
+footer .bottom_nav span {
+  color: var(--color-light-3);
+  font-size: var(--text-sm);
+}
