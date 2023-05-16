@@ -1,6 +1,6 @@
 import React from 'react';
 import './Favorit.css';
-import img from '../../../assets/best/b4.jpg';
+// import img from '../../../assets/best/b4.jpg';
 
 import { MdOutlineBookmarkBorder } from 'react-icons/md';
 import { MdOutlineFavoriteBorder } from 'react-icons/md';
@@ -14,7 +14,7 @@ const Favorit = () => {
       <div className="row Favorit gy-4 ">
         <h2>Favorit products</h2>
         {Prodcut_Data.map((item) => {
-          const { id, title, price } = item;
+          const { id, title, price, img } = item;
           return (
             <div className="col-6   col-md-4   " key={id}>
               <div className=" rounded border w-100">

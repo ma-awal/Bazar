@@ -1,5 +1,5 @@
 import { v4 as uuidv4 } from 'uuid';
-import product from '../assets/product.jpg';
+import product from '../assets/fruits/cabage1.jpg';
 const Product_Data = [
   {
     id: uuidv4(),
