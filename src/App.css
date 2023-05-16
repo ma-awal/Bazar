@@ -76,3 +76,10 @@ body {
   border: 1px solid var(--color-green) !important;
   color: var(--color-green) !important;
 }
+.app-loading {
+  visibility: hidden;
+}
+
+.app-loaded {
+  visibility: visible;
+}

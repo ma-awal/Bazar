@@ -9,7 +9,7 @@ const Product_Link = [
   { id: uuidv4(), icon: t1, category: 'Fruit' },
   { id: uuidv4(), icon: t2, category: 'Vegetable' },
   { id: uuidv4(), icon: t3, category: 'Seafood' },
-  { id: uuidv4(), icon: t4, category: ' Desert' },
+  { id: uuidv4(), icon: t4, category: 'Dessert' },
   { id: uuidv4(), icon: t5, category: 'Meat' },
 ];
 export default Product_Link;
