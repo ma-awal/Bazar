@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Menu.css';
+import { Link } from 'react-router-dom';
 
 const Menu = ({ items, initialNumItems }) => {
   const [numItems, setNumItems] = useState(initialNumItems);
@@ -22,9 +23,12 @@ const Menu = ({ items, initialNumItems }) => {
             <div key={item.id} className="col-4 col-md-3  ">
               <div className="box text-center flex_col align-items-center  gap-2">
                 <img src={item.img} className="rounded img-fluid" alt="name " />
-                <a className="text-decoration-none" href="/AllProduct">
+                <Link
+                  className="text-decoration-none"
+                  to={`/product/${item.title}`}
+                >
                   {item.title}
-                </a>
+                </Link>
               </div>
             </div>
           );

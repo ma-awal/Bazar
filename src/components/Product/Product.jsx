@@ -4,7 +4,7 @@ import './Product.css';
 import { MdOutlineBookmarkBorder } from 'react-icons/md';
 import { MdOutlineFavoriteBorder } from 'react-icons/md';
 import Category_Data from '../../data/Category_Data';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import AddButton from './CountBtn/AddButton';
 
 const Product = () => {
@@ -23,13 +23,13 @@ const Product = () => {
 
                 <div className="info ">
                   <div className="   d-flex justify-content-between">
-                    <a href={item.title}>
+                    <Link to={item.title}>
                       <MdOutlineBookmarkBorder />
-                    </a>
+                    </Link>
                     <AddButton />
-                    <a>
+                    <Link>
                       <MdOutlineFavoriteBorder />
-                    </a>
+                    </Link>
                   </div>
                   <p className="text-center">{item.title}</p>
                   <div className="price flex_row text-capitalize">

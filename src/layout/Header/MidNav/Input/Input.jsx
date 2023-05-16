@@ -3,6 +3,7 @@ import React from 'react';
 import Product_Link from '../../../../data/Product_Link';
 import { FiSearch } from 'react-icons/fi';
 import './Input.css';
+import { Link } from 'react-router-dom';
 const Input = () => {
   return (
     <>
@@ -22,7 +23,7 @@ const Input = () => {
               return (
                 <li key={id}>
                   <img src={icon} className="pe-2" alt="name" />
-                  <a href={`/product/${category}`}>{category}</a>
+                  <Link to={`/product/${category}`}>{category}</Link>
                 </li>
               );
             })}

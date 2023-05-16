@@ -1,6 +1,7 @@
 import React from 'react';
 import './Cart_slide.css';
 import { RxCross1 } from 'react-icons/rx';
+import { Link } from 'react-router-dom';
 
 const CartSlide = (props) => {
   const Cart_Data = props.Data;
@@ -57,7 +58,7 @@ const CartSlide = (props) => {
             <div className="row align-items-center">
               <div className="col-6 place_order text-center">
                 <button>
-                  <a to="/placeOrder">Place order</a>
+                  <Link to="/placeOrder">Place order</Link>
                 </button>
               </div>
               <div className="col-6 total text-center">

@@ -15,6 +15,7 @@ const HomeLink = () => {
                 <Link
                   key={index}
                   className=" btn btn_less text-decoration-none"
+                  to={`product/${item.category}`}
                 >
                   {item.category}
                 </Link>

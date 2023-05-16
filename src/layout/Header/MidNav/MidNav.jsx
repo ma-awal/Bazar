@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import './Mid_nav.css';
 import Input from './Input/Input';
-
 import UserLogin from '../../../components/UserLogin/UserLogin';
 import CartHover from '../../../components/CartHover/CartHover';
 import Category_Data from '../../../data/Category_Data';
 import { BiUser } from 'react-icons/bi';
 import { AiOutlineHeart } from 'react-icons/ai';
 import { BsCart } from 'react-icons/bs';
+import { Link } from 'react-router-dom';
 const MidNav = () => {
   const [modal, setModal] = useState(false);
   const handleClose = () => {
@@ -18,9 +18,9 @@ const MidNav = () => {
       <div className="container ">
         <div className=" row  flex_row py-1 position-relative ">
           <div className="col-2">
-            <a href="/" className="nav_brand text-decoration-none">
+            <Link to="/" className="nav_brand text-decoration-none">
               Bazar
-            </a>
+            </Link>
           </div>
           <Input />
           <div className="col-3   right_icon  flex_row  ">
@@ -34,17 +34,17 @@ const MidNav = () => {
               </button>
             </div>
             <div className="user_profile flex-shrink-0 ">
-              <a href="/Profile/tab" className="text-decoration-none  ">
+              <Link to="/Profile/tab" className="text-decoration-none  ">
                 <AiOutlineHeart className="fs-5 text-dark pe-1" />
                 Profile
-              </a>
+              </Link>
             </div>
 
             <div className="user_cart flex_row  gap-2 flex-shrink-0">
-              <a className="text-decoration-none  ">
+              <Link className="text-decoration-none  ">
                 <BsCart className="fs-5 text-dark pe-1" />
                 Cart
-              </a>
+              </Link>
 
               <CartHover Data={Category_Data} />
             </div>

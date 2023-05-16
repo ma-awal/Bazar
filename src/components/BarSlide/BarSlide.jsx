@@ -2,6 +2,7 @@ import React from 'react';
 import { RxCross1 } from 'react-icons/rx';
 
 import './Bar_slide.css';
+import { Link } from 'react-router-dom';
 
 const SearchSlide = (props) => {
   const { show, onClose } = props;
@@ -11,25 +12,25 @@ const SearchSlide = (props) => {
       <div className=" px-4  flex_cente ">
         <ul className="bar_link list-group text-center">
           <li>
-            <a href="/">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="/About"> About us</a>
+            <Link to="/About"> About us</Link>
           </li>
           <li>
-            <a href="/Blogs">Blogs</a>
+            <Link to="/Blogs">Blogs</Link>
           </li>
           <li>
-            <a href="/Offer">Offer</a>
+            <Link to="/Offer">Offer</Link>
           </li>
           <li>
-            <a href="/Contact">Contact us</a>
+            <Link to="/Contact">Contact us</Link>
           </li>
           <li>
-            <a href="/Faqs">Faq</a>
+            <Link to="/Faqs">Faq</Link>
           </li>
           <li>
-            <a href="telto:Hotline:09666683">Hotline:09666683</a>
+            <Link to="telto:Hotline:09666683">Hotline:09666683</Link>
           </li>
         </ul>
       </div>

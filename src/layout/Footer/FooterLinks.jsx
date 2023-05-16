@@ -13,12 +13,12 @@ const FooterLinks = ({ footerData, handleTabClick }) => {
             {footerData[0].links.map((link, index) => {
               return (
                 <li key={index}>
-                  <a
-                    href={link.path}
+                  <Link
+                    to={link.path}
                     onClick={() => handleTabClick(link.index)}
                   >
                     {link.name}
-                  </a>
+                  </Link>
                 </li>
               );
             })}
@@ -34,12 +34,12 @@ const FooterLinks = ({ footerData, handleTabClick }) => {
             {footerData[1].links.map((link, index) => {
               return (
                 <li key={index}>
-                  <a
-                    href={link.path}
+                  <Link
+                    to={link.path}
                     onClick={() => handleTabClick(link.index)}
                   >
                     {link.name}
-                  </a>
+                  </Link>
                 </li>
               );
             })}

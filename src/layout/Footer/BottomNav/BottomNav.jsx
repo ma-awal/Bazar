@@ -22,10 +22,10 @@ const BottomNav = () => {
     <>
       <div className="bottom_nav flex_row  py-2 shadow position-fixed w-100 bottom-0 start-0 end-0 d-xl-none px-2 ">
         <div className="icon ">
-          <a className="flex_col align-items-center" href="/">
+          <Link className="flex_col align-items-center" to="/">
             <img src={home} alt="name" />
             <span>Home</span>
-          </a>
+          </Link>
         </div>
         <div className="icon flex_col align-items-center">
           <img src={cart} alt="name" onClick={handleDepartment} />
@@ -40,10 +40,10 @@ const BottomNav = () => {
           <span>Favourit</span>
         </div>
         <div className="icon ">
-          <a href="/Profile/tab" className="flex_col align-items-center">
+          <Link to="/Profile/tab" className="flex_col align-items-center">
             <img src={profile} alt="name" />
             <span>Profile</span>
-          </a>
+          </Link>
         </div>
       </div>
     </>

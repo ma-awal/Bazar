@@ -1,7 +1,7 @@
 import React from 'react';
-import { useState } from 'react';
 
 import './Menu.css';
+import { Link } from 'react-router-dom';
 
 const Menu = ({ items }) => {
   return (
@@ -13,9 +13,9 @@ const Menu = ({ items }) => {
               <div className="box text-center shadow-sm ">
                 <img src={item.img} className="rounded img-fluid" alt="name " />
                 <div className="info p-2">
-                  <a className=" d-block" href={item.title}>
+                  <Link className=" d-block" to={item.title}>
                     {item.title}
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

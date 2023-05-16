@@ -1,7 +1,6 @@
 import React from 'react';
 import './Cart.css';
 import { RxCross1 } from 'react-icons/rx';
-import { Link } from 'react-router-dom';
 
 const CartHover = (props) => {
   const Cart_Data = props.Data;

@@ -6,7 +6,6 @@ import { MdLocationOn } from 'react-icons/md';
 import './Footer.css';
 import FooterLinks from './FooterLinks';
 import Footer_Data from '../../data/Footer_Data';
-
 import { MdEmail } from 'react-icons/md';
 import { BsFillTelephoneFill } from 'react-icons/bs';
 import { BsFacebook } from 'react-icons/bs';
@@ -29,23 +28,23 @@ const Footer = () => {
                 </h3>
 
                 <div className="social_link d-flex gap-1 justify-content-center justify-content-lg-start     w-100 ">
-                  <a className="me-1" href="https://www.facebook.com">
+                  <Link className="me-1" to="https://www.facebook.com">
                     <BsFacebook className="text-white fs-5" />
-                  </a>
+                  </Link>
 
-                  <a className="me-1" href="https://www.twitter.com">
+                  <Link className="me-1" to="https://www.twitter.com">
                     <BsTwitter className="text-white fs-5" />
-                  </a>
+                  </Link>
 
-                  <a className="me-1" href="https://www.instagram.com">
+                  <Link className="me-1" to="https://www.instagram.com">
                     <AiFillInstagram className="text-white fs-5" />
-                  </a>
-                  <a className="me-1" href="https://www.instagram.com">
+                  </Link>
+                  <Link className="me-1" to="https://www.instagram.com">
                     <AiFillLinkedin className="text-white fs-5" />
-                  </a>
-                  <a className="me-1" href="https://www.instagram.com">
+                  </Link>
+                  <Link className="me-1" to="https://www.instagram.com">
                     <AiFillMail className="text-white fs-5" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -62,22 +61,22 @@ const Footer = () => {
                 </h6>
                 <ul className="list-group    ">
                   <li>
-                    <a href="/Store" className="w-100" target="blank">
+                    <Link to="/Store" className="w-100" target="blank">
                       <MdLocationOn className=" fs-5 text-white  " />
                       Bohuli,Sirajganj,Dhaka
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="tel:++054395483" target="blank">
+                    <Link to="tel:++054395483" target="blank">
                       <BsFillTelephoneFill className="fs-6 " />
                       ++054395483
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="mailto:maawal797@gmail.com" target="blank">
+                    <Link to="mailto:maawal797@gmail.com" target="blank">
                       <MdEmail className="fs-6 " />
                       maawal797@gmail.com
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>

@@ -4,6 +4,7 @@ import { CiSearch } from 'react-icons/ci';
 import Link_Data from '../../data/Link_Data';
 
 import './Search_slide.css';
+import { Link } from 'react-router-dom';
 const SearchSlide = (props) => {
   const { showSearch, onClose } = props;
   return (
@@ -23,13 +24,13 @@ const SearchSlide = (props) => {
       <div className="tab-link flex_row flex-wrap justify-content-center gap-2 py-2  ">
         {Link_Data.map((items) => {
           return (
-            <a
+            <Link
               key={items.id}
               className="link btn btn_less flex-wrap   "
-              href={`/links/${items.id}`}
+              to={`/links/${items.id}`}
             >
               {items.category}
-            </a>
+            </Link>
           );
         })}
       </div>

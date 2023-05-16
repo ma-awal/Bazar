@@ -10,11 +10,6 @@ const DepartmentSlide = (props) => {
       <RxCross1 className="mb-3 mt-2  " onClick={onClose} />
 
       <HomeLink />
-      {/* <div className="row min-vh-100 align-items-center justify-content-center">
-        <div className="col">
-          <h1 className="text-center">Department</h1>
-        </div>
-      </div> */}
     </div>
   );
 };

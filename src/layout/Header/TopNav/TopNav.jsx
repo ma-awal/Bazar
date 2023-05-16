@@ -5,6 +5,7 @@ import locator from '../../../assets/top/t3.png';
 import email from '../../../assets/top/t4.png';
 import Locator from '../../../components/Locator/Locator';
 import './Top_nav.css';
+import { Link } from 'react-router-dom';
 
 const TopNav = () => {
   const [locate, setLocate] = useState(false);
@@ -15,15 +16,15 @@ const TopNav = () => {
           <div className="left_icon flex_row gap-2">
             <span className="">
               <img src={faq} className="pe-2" />
-              <a href="/Faqs">FAQ's</a>
+              <Link to="/Faqs">FAQ's</Link>
             </span>
             <span>
               <img src={track} className="px-2" />
-              <a href="/TrackOrder">Track Order</a>
+              <Link to="/TrackOrder">Track Order</Link>
             </span>
             <span onClick={() => setLocate(true)}>
               <img src={locator} className="px-2" />
-              <a className="border-0">Locator</a>
+              <Link className="border-0">Locator</Link>
               {locate && <Locator />}
             </span>
           </div>
@@ -35,9 +36,9 @@ const TopNav = () => {
             </select>
             <span className="pe-0 me-0">
               <img src={email} className="px-2" />
-              <a className="border-0 pe-0 me-0" href="http://www.google.com">
+              <Link className="border-0 pe-0 me-0" href="http://www.google.com">
                 Support @gmail.com
-              </a>
+              </Link>
             </span>
           </div>
         </div>

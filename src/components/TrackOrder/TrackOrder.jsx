@@ -1,5 +1,4 @@
 import React from 'react';
-import img from '../../assets/best/b1.jpg';
 import './Track.css';
 import Progress from './Progress';
 import Category_Data from '../../data/Category_Data';

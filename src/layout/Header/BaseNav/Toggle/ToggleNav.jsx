@@ -1,5 +1,6 @@
 import React from 'react';
 import Product_Link from '../../../../data/Product_Link';
+import { Link } from 'react-router-dom';
 
 const ToggleNav = () => {
   return (
@@ -11,9 +12,9 @@ const ToggleNav = () => {
             return (
               <div className="text-center" key={id}>
                 <img src={icon} className="img-fluid" alt="" />
-                <a className=" d-block" href={`/Product/${category}`}>
+                <Link className=" d-block" to={`/Product/${category}`}>
                   {category}
-                </a>
+                </Link>
               </div>
             );
           })}
