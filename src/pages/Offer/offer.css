@@ -12,7 +12,7 @@
 
 @media (max-width: 768px) {
   .offer .offer_banner img {
-    min-height: 10rem;
+    min-height: 12rem;
     object-fit: cover;
   }
 }

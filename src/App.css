@@ -7,6 +7,7 @@
   border: none;
   text-decoration: none;
   list-style-type: none;
+  overflow-x: hidden;
 }
 :root {
   --color-white-1: #ffffff;
@@ -41,10 +42,10 @@ html {
 body {
   font-family: 'Poppins', sans-serif;
   background: var(--white4-e5e5e5);
-  overflow-y: hidden !important;
   font-size: 16px !important;
   font-weight: 400px;
   color: black;
+  overflow-x: hidden;
 }
 
 .flex_row {
@@ -85,15 +86,19 @@ body {
 }
 
 @media (max-width: 768px) {
-  body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden !important;
-  }
   .btn_less {
     padding: 0.2rem 0.4rem !important;
     border-radius: 35px !important;
     border: 1px solid var(--color-light-2) !important;
     font-size: 14px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
   }
 }

@@ -5,7 +5,7 @@
 
 @media (max-width: 576px) {
   .Home_banner img {
-    min-height: 10rem;
+    min-height: 12rem;
     object-fit: cover;
     margin-bottom: 1rem;
   }

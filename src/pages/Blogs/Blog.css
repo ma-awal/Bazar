@@ -31,7 +31,7 @@
 
 @media (max-width: 768px) {
   .Blogs .blogs_banner img {
-    min-height: 10rem;
+    min-height: 12rem;
     object-fit: cover;
   }
 }
