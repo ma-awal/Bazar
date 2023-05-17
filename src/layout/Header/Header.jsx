@@ -7,7 +7,10 @@ import BaseNav from './BaseNav/BaseNav';
 import MainNav from './MainNav/MainNav';
 const Header = () => {
   return (
-    <main id="header" className="position-sticky top-0 start-0 end-0  ">
+    <main
+      id="header"
+      className=" position-sticky top-0 end-0 start-0 bottom-0     "
+    >
       <section className="d-none d-xl-block">
         <TopNav />
         <MidNav />

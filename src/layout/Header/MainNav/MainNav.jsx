@@ -28,14 +28,14 @@ const MainNav = () => {
   };
   return (
     <div className="Main  ">
-      <nav className="navbar position-relative sticky-top">
+      <nav className="navbar    position-relative">
         <div className="container-fluid ">
           <div className="bar">
             <BsList className="icon" onClick={handleMenu} />
             <BarSlide show={menu} onClose={handleMenu} />
           </div>
           <div className="logo">
-            <h4 className="  ">Bazar</h4>
+            <h2 className="  ">Bazar</h2>
           </div>
           <div className="icons flex_row gap-2   ">
             <div className="search ">

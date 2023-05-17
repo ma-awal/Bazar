@@ -3,7 +3,7 @@
   font-size: var(--text-2xl);
   font-weight: var(--fw-semi);
 }
-.Main .logo h4 {
+.Main .logo h2 {
   font-weight: var(--fw-700);
   color: var(--color-white-3) !important;
 }
