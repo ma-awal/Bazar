@@ -35,7 +35,7 @@ const MainNav = () => {
             <BarSlide show={menu} onClose={handleMenu} />
           </div>
           <div className="logo">
-            <h4 className="display-5 ">Bazar</h4>
+            <h4 className="  ">Bazar</h4>
           </div>
           <div className="icons flex_row gap-2   ">
             <div className="search ">

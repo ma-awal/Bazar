@@ -2,7 +2,7 @@
 }
 
 .Favorit h2 {
-  font-weight: 700;
+  font-weight: 600;
   color: var(--color-light-3) !important;
 }
 .Favorit .info p {
@@ -14,11 +14,12 @@
   color: var(--color-light-3) !important;
 }
 .Favorit .price {
-  color: var(--color-black-2);
+  color: var(--color-light-3);
   font-weight: var(--fw-400);
-  font-size: var(--text-base) !important;
+  font-size: var(--text-sm) !important;
 }
 
 .Favorit .price span {
   color: var(--color-light-3) !important;
+  font-weight: var(--fw-600) !important;
 }

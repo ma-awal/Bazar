@@ -8,7 +8,7 @@ const Offer = () => {
     <section className="offer">
       <div className="offer_banner position-relative">
         <img src={banner} className="img-fluid" alt="img" />
-        <h2 className="display-5">Offer</h2>
+        <h2 className=" text-uppercase ">Offer</h2>
       </div>
       <div className="container">
         <OfferItems />

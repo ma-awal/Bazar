@@ -23,9 +23,8 @@ const BlogPost = () => {
       {
         breakpoint: 992,
         settings: {
-          slidesToShow: 3,
-          centerMode: true,
-          centerPadding: '100px;',
+          slidesToShow: 2,
+          centerMode: false,
         },
       },
       {
@@ -33,27 +32,26 @@ const BlogPost = () => {
         settings: {
           slidesToShow: 1,
           centerMode: false,
-          centerPadding: '0px',
         },
       },
     ],
   };
 
   return (
-    <section className=" Blog_post py-3 py-lg-4 flex_center ">
+    <section className=" Blog_post py-3 py-lg-5 flex_center mb-3 ">
       <div className="container">
         <h2 className="mb-2 mb-md-3 mb-lg-4   text-center  text-uppercase">
           Latest Blog
         </h2>
         <div className="row">
-          <div className="col  ">
+          <div className="col   ">
             <Slider className=" " {...settings}>
               {Blog_Post.map((item) => (
                 <div key={item.id} className=" ">
-                  <div className="shadow   flex_col gap-3  m-3 rounded-3">
+                  <div className="shadow h-100  flex_col gap-3  m-3 rounded-3">
                     <img
                       src={item.img}
-                      className="img-fluid w-100 mx-auto "
+                      className="img-fluid rounded row w-100  m-auto  "
                       alt="img"
                       style={{ objectFit: 'cover' }}
                     />

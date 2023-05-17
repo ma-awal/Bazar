@@ -16,8 +16,8 @@
 }
 .Offered .price span {
   color: var(--color-black-1) !important;
-  font-weight: var(--fw-500);
-  font-size: var(--text-lg) !important;
+  font-weight: var(--fw-600) !important;
+  font-size: var(--text-base) !important;
 }
 
 .Offered .price span:nth-of-type(2) {
@@ -25,4 +25,10 @@
   text-decoration: line-through !important;
   font-size: var(--text-base) !important;
   font-weight: var(--fw-600);
+}
+@media (max-width: 768px) {
+  .Offered .price span {
+    font-weight: var(--fw-500);
+    font-size: var(--text-sm) !important;
+  }
 }

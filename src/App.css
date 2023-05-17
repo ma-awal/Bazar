@@ -83,3 +83,12 @@ body {
 .app-loaded {
   visibility: visible;
 }
+
+@media (max-width: 768px) {
+  .btn_less {
+    padding: 0.2rem 0.4rem !important;
+    border-radius: 35px !important;
+    border: 1px solid var(--color-light-2) !important;
+    font-size: 14px !important;
+  }
+}

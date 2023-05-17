@@ -27,7 +27,7 @@ const SearchSlide = (props) => {
             <Link to="/Contact">Contact us</Link>
           </li>
           <li>
-            <Link to="/Faqs">Faq</Link>
+            <Link to="/Faqs">Faqs</Link>
           </li>
           <li>
             <Link to="telto:Hotline:09666683">Hotline:09666683</Link>

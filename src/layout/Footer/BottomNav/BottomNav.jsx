@@ -20,7 +20,7 @@ const BottomNav = () => {
 
   return (
     <>
-      <div className="bottom_nav flex_row  py-2 shadow position-fixed w-100 bottom-0 start-0 end-0 d-xl-none px-2 ">
+      <div className="bottom_nav flex_row  py-2 shadow border-1 border position-fixed w-100 bottom-0 start-0 end-0 d-xl-none px-2 ">
         <div className="icon ">
           <Link className="flex_col align-items-center" to="/">
             <img src={home} alt="name" />

@@ -5,7 +5,9 @@ import Menu from './Menu/Menu';
 
 const BestSell = () => {
   const bestSellItems = Category_Data.filter((item) =>
-    ['Apple', 'Beef', 'Grapes', 'Cucumber', 'Mango'].includes(item.title)
+    ['Apple', 'Beef', 'Grapes', 'Cucumber', 'Mango', 'Carrot'].includes(
+      item.title
+    )
   );
 
   return (

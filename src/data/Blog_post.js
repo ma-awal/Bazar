@@ -1,12 +1,10 @@
 import { v4 as uuidv4 } from 'uuid';
-import img1 from '../assets/best/b1.jpg';
-import img2 from '../assets/best/b2.jpg';
-import img3 from '../assets/best/b3.jpg';
-import img4 from '../assets/best/b4.jpg';
-import img5 from '../assets/best/b5.jpg';
-import img6 from '../assets/best/b6.jpg';
-import img7 from '../assets/best/b7.jpg';
-import img8 from '../assets/best/b8.jpg';
+import img1 from '../assets/fruits/mango1.jpg';
+import img2 from '../assets/fruits/grap1.jpg';
+import img3 from '../assets/chocolate/ice1.jpg';
+import img4 from '../assets/meat/beef.jpg';
+import img5 from '../assets/fruits/t1.jpg';
+import img6 from '../assets/chocolate/cake1.jpg';
 
 <p> </p>;
 const Blog_Post = [
@@ -46,19 +44,6 @@ const Blog_Post = [
     title: 'Lorem, ipsum dolor.',
     text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel culpa iusto magni sed praesentium atque, voluptatibus provident pariatur deserunt inventore!',
   },
-  {
-    id: uuidv4(),
-    img: img7,
-    title: 'Lorem, ipsum dolor.',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel culpa iusto magni sed praesentium atque, voluptatibus provident pariatur deserunt inventore!',
-  },
-  {
-    id: uuidv4(),
-    img: img8,
-    title: 'Lorem, ipsum dolor.',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel culpa iusto magni sed praesentium atque, voluptatibus provident pariatur deserunt inventore!',
-  },
-  ,
 ];
 
 export default Blog_Post;

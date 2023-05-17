@@ -25,3 +25,8 @@
   font-size: var(--text-base);
   text-decoration: none;
 }
+@media (max-width: 576px) {
+  .Bar_slide .bar_link li a {
+    font-size: var(--text-sm);
+  }
+}

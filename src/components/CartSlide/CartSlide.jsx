@@ -9,11 +9,10 @@ const CartSlide = (props) => {
   return (
     <>
       <div className={`Cart px-2   ${cart ? 'is-Active' : ''}`}>
-        <>
-          <RxCross1 className="   mt-1  " onClick={onClose} />
-        </>
-
-        <div className="Cart_menu  d-flex flex-column justify-content-around h-100">
+        <div className="" style={{ zIndex: 1 }}>
+          <RxCross1 className="     " onClick={onClose} />
+        </div>
+        <div className="Cart_menu  d-flex flex-column justify-content-between  h-100">
           <div className="cart_items flex_row mt-2 ">
             <span>3 ITEMS</span>
             <span>SELECTED</span>
@@ -54,7 +53,7 @@ const CartSlide = (props) => {
               );
             })}
           </ul>
-          <div className="order   mb-4  ">
+          <div className="order position-sticky bottom-0 mb-5    ">
             <div className="row align-items-center">
               <div className="col-6 place_order text-center">
                 <button>

@@ -22,11 +22,11 @@ const HomeBanner = () => {
     <>
       <section className="Home_banner  ">
         <Slider {...settings}>
-          <div>
-            <img src={img1} className="img-fluid" alt="name" />
+          <div className="h-100">
+            <img src={img1} className=" img-fluid" alt="name" />
           </div>
-          <div>
-            <img src={img2} className="img-fluid" alt="name" />
+          <div className="h-100">
+            <img src={img2} className="img-fluid  " alt="name" />
           </div>
         </Slider>
       </section>

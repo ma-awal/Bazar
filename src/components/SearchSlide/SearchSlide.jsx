@@ -1,8 +1,8 @@
 import React from 'react';
 import { RxCross1 } from 'react-icons/rx';
 import { CiSearch } from 'react-icons/ci';
-import Link_Data from '../../data/Link_Data';
 
+import Product_Link from '../../data/Product_Link';
 import './Search_slide.css';
 import { Link } from 'react-router-dom';
 const SearchSlide = (props) => {
@@ -22,7 +22,7 @@ const SearchSlide = (props) => {
       </div>
       <h6 className="mt-2">Search in :</h6>
       <div className="tab-link flex_row flex-wrap justify-content-center gap-2 py-2  ">
-        {Link_Data.map((items) => {
+        {Product_Link.map((items) => {
           return (
             <Link
               key={items.id}

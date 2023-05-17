@@ -4,7 +4,8 @@ import './Favorit.css';
 
 import { MdOutlineBookmarkBorder } from 'react-icons/md';
 import { MdOutlineFavoriteBorder } from 'react-icons/md';
-import Prodcut_Data from '../../../data/Product_Data';
+import Category_Data from '../../../data/Category_Data';
+
 import { Link } from 'react-router-dom';
 import AddButton from './CountBtn/AddButton';
 
@@ -13,16 +14,20 @@ const Favorit = () => {
     <>
       <div className="row Favorit gy-4 ">
         <h2>Favorit products</h2>
-        {Prodcut_Data.map((item) => {
-          const { id, title, price, img } = item;
+        {Category_Data.map((item) => {
+          const { id, price, title, img } = item;
           return (
             <div className="col-6   col-md-4   " key={id}>
               <div className=" rounded border w-100">
-                <img src={img} className="img-fluid w-100 mb-1" alt="name" />
+                <img
+                  src={img}
+                  className="img-fluid rounded w-100 mb-1"
+                  alt="name"
+                />
 
                 <div className="info px-2 ">
                   <div className="   d-flex justify-content-between">
-                    <Link to={title}>
+                    <Link to="">
                       <MdOutlineBookmarkBorder />
                     </Link>
                     <AddButton />
@@ -30,9 +35,9 @@ const Favorit = () => {
                       <MdOutlineFavoriteBorder />
                     </Link>
                   </div>
-                  <p>{title}</p>
-                  <div className="price">
-                    BDT: <span>{price}</span>
+                  <p className="text-center">{title}</p>
+                  <div className="price text-center">
+                    Price : <span>{price}</span>
                   </div>
                 </div>
               </div>

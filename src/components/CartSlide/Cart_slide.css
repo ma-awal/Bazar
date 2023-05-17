@@ -24,14 +24,14 @@
   overflow-y: scroll;
 }
 .Cart .cart_items {
-  background: var(--color-light-1);
-  padding: 0.5rem;
+  background: var(--color-white-2);
+  width: 100%;
 }
 .Cart .cart_items span {
-  color: var(--color-light-3);
+  color: var(--color-black-2);
   display: block;
-  font-size: var(--text-xl);
-  font-weight: var(--fw-600);
+  font-size: var(--text-lg);
+  font-weight: var(--fw-500);
 }
 
 .Cart img {
@@ -45,7 +45,7 @@
 .Cart .p_info p:nth-of-type(1) span {
   color: var(--color-light-3);
   font-size: var(--text-sm);
-  font-weight: var(--fw-600);
+  font-weight: var(--fw-600) !important;
 }
 
 .Cart .p_info p:nth-of-type(2) span {
@@ -65,9 +65,9 @@
 }
 
 .Cart .cart_list .price {
-  font-weight: var(--fw-600);
+  font-weight: var(--fw-500);
   color: var(--color-light-3);
-  font-size: var(--text-sm);
+  font-size: var(--text-sm) !important;
 }
 
 .Cart .cart_list img {
@@ -75,11 +75,10 @@
 }
 
 .Cart .times {
-  color: var(--color-light-3);
+  color: var(--color-light-2);
 }
 .Cart .order {
   background: white;
-  z-index: 10000;
   border: 1px solid var(--color-light-2);
 }
 .Cart .place_order {
@@ -89,13 +88,13 @@
 
 .Cart .place_order a {
   color: var(--color-white-1) !important;
-  font-size: var(--text-lg) !important;
-  font-weight: var(--fw-700) !important;
+  font-size: var(--text-base) !important;
+  font-weight: var(--fw-500) !important;
   text-decoration: none;
 }
 .Cart .total,
 .total span {
   font-size: var(--text-base) !important;
-  font-weight: var(--fw-600) !important;
-  color: var(--color-light-3);
+  font-weight: var(--fw-500) !important;
+  color: var(--color-black-2);
 }

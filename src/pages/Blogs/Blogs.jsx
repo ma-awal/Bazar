@@ -10,7 +10,7 @@ const Blogs = () => {
     <section className="Blogs">
       <div className="blogs_banner position-relative">
         <img src={banner} className="img-fluid banner_img" alt="img" />
-        <h2 className="display-5 ">Our Blogs</h2>
+        <h2 className=" text-uppercase ">Our Blogs</h2>
       </div>
       <div className="container py-5">
         <div className="row mb-3 justify-content-between ">

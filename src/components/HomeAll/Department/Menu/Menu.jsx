@@ -17,7 +17,7 @@ const Menu = ({ items, initialNumItems }) => {
   };
   return (
     <>
-      <div className=" Menu row justify-content-center  gy-3 row-cols-xl-5 py-2 py-md-3 py-lg-4   ">
+      <div className=" Menu row justify-content-center  gy-3 row-cols-xl-6 py-2 py-md-3 py-lg-4   ">
         {items.slice(0, numItems).map((item) => {
           return (
             <div key={item.id} className="col-4 col-md-3  ">

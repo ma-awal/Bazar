@@ -6,11 +6,11 @@ import { Link } from 'react-router-dom';
 
 const Add = () => {
   return (
-    <div>
-      <div className="container py-2 py-lg-3 ">
+    <section className="Add py-3 py-lg-5">
+      <div className="container    ">
         <div className="row justify-content-center gap-3 align-items-center">
           <div className=" col-12  col-lg-5">
-            <div className="box_item flex_row shadow">
+            <div className="box_item flex_row shadow-sm">
               <div>
                 <span>Till 10 Dec, 2021 </span>
                 <h6>25% Special Off Today Only for Vegetables </h6>
@@ -39,7 +39,7 @@ const Add = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

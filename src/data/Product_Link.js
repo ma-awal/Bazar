@@ -6,7 +6,7 @@ import t4 from '../assets/icons/cook.png';
 import t5 from '../assets/icons/home.png';
 
 const Product_Link = [
-  { id: uuidv4(), icon: t1, category: 'Fruit' },
+  { id: uuidv4(), icon: t1, category: 'Fruits' },
   { id: uuidv4(), icon: t2, category: 'Vegetable' },
   { id: uuidv4(), icon: t3, category: 'Seafood' },
   { id: uuidv4(), icon: t4, category: 'Dessert' },

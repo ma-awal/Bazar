@@ -1,5 +1,5 @@
 .New_adress h2 {
-  font-weight: 700;
+  font-weight: 600;
   color: var(--color-light-3) !important;
 }
 .New_adress p {
@@ -15,7 +15,7 @@
 .New_adress label {
   color: var(--color-light-3);
   font-size: var(--text-base);
-  font-weight: var(--fw-600);
+  font-weight: var(--fw-500);
 }
 
 .New_adress input {
@@ -25,7 +25,7 @@
   font-size: var(--text-sm);
   font-weight: var(--fw-400);
   padding: 0.6rem 0.6rem;
-  color: var(--color-light-3);
+  color: var(--color-black-2);
 }
 .New_adress input:focus {
   box-shadow: none;
@@ -59,4 +59,16 @@
   font-size: var(--text-base);
   padding: 0 !important;
   margin: 0 !important;
+}
+
+@media (max-width: 768px) {
+  .New_adress input {
+    padding: 0.2rem 0.3rem;
+  }
+  .New_adress label {
+    font-size: var(--text-sm);
+  }
+  .New_adress .input_filed {
+    line-height: 2.5rem;
+  }
 }

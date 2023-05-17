@@ -15,7 +15,7 @@ const NewAdress = (props) => {
         </p>
         <form action="" className=" py-3 mt-4   ">
           <div className="input_filed   row    ">
-            <div className="input_form col-6">
+            <div className="input_form col-12 col-md-6">
               <div>
                 <label htmlFor="name">Name</label>
                 <input
@@ -37,7 +37,7 @@ const NewAdress = (props) => {
                 />
               </div>
             </div>
-            <div className="input_form col-6">
+            <div className="input_form col-12 col-md-6">
               <div>
                 <label htmlFor="password">Old Password</label>
                 <input
@@ -71,7 +71,7 @@ const NewAdress = (props) => {
                 Back
               </button>
             </div>
-            <button className="  btn btn-sm " type="submit">
+            <button className="   btn btn-sm " type="submit">
               Save Change
             </button>
           </div>

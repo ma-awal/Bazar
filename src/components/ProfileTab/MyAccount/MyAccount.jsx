@@ -9,10 +9,10 @@ const MyAccount = () => {
         <form action="" className=" py-3   ">
           <div className="  text-center mb-4">
             <FaUser className="  icon rounded-circle  " />
-            <h6 className="fw-bold mt-2 ">Awal</h6>
+            <h6 className=" mt-2 m-0 ">Awal</h6>
           </div>
           <div className="input_filed   row    ">
-            <div className="input_form col-6">
+            <div className="input_form col-12 col-md-6">
               <div>
                 <label htmlFor="name">Name</label>
                 <input
@@ -34,7 +34,7 @@ const MyAccount = () => {
                 />
               </div>
             </div>
-            <div className="input_form col-6">
+            <div className="input_form col-12 col-md-6">
               <div>
                 <label htmlFor="password">Old Password</label>
                 <input

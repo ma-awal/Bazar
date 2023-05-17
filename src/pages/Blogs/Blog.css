@@ -28,3 +28,10 @@
   background: var(--color-green);
   height: 3px;
 }
+
+@media (max-width: 768px) {
+  .Blogs .blogs_banner img {
+    min-height: 10rem;
+    object-fit: cover;
+  }
+}

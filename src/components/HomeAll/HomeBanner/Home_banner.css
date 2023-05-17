@@ -1,6 +1,12 @@
 .Home_banner {
   min-height: min-content;
+  margin-bottom: ;
 }
 
 @media (max-width: 576px) {
+  .Home_banner img {
+    min-height: 10rem;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
 }

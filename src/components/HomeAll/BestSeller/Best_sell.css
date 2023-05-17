@@ -1,15 +1,9 @@
 .Best_Sell h2 {
-  font-weight: 700;
-
+  font-weight: 600;
   margin-bottom: 2rem;
   color: var(--color-light-3);
 }
 
-.Best_Sell .box a {
-  font-size: var(--text-base);
-  font-weight: var(--fw-regular);
-  color: var(--black2-474c5a);
-}
 @media (max-width: 768px) {
   .Best_Sell h2 {
     font-weight: 600;
@@ -21,7 +15,7 @@
 @media (max-width: 576px) {
   .Best_Sell h2 {
     font-weight: 600;
-    font-size: 32px;
+    font-size: 24px;
     margin-bottom: 1rem;
   }
 }

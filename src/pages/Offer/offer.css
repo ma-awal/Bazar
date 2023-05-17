@@ -10,16 +10,9 @@
   background-attachment: fixed !important;
 }
 
-.offer .tag {
-  font-size: var(--text-sm);
-  color: var(--color-light-3);
-}
-.offer .price {
-  font-size: var(--text-base);
-  color: var(--color-black-2);
-  font-weight: var(--fw-600);
-}
-
-.offer .price span {
-  font-size: var(--text-sm);
+@media (max-width: 768px) {
+  .offer .offer_banner img {
+    min-height: 10rem;
+    object-fit: cover;
+  }
 }
