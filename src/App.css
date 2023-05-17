@@ -7,7 +7,6 @@
   border: none;
   text-decoration: none;
   list-style-type: none;
-  overflow-x: hidden;
 }
 :root {
   --color-white-1: #ffffff;
@@ -76,13 +75,6 @@ body {
 .btn_less:hover {
   border: 1px solid var(--color-green) !important;
   color: var(--color-green) !important;
-}
-.app-loading {
-  visibility: hidden;
-}
-
-.app-loaded {
-  visibility: visible;
 }
 
 @media (max-width: 768px) {

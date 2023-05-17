@@ -5,7 +5,7 @@ const MyAccount = () => {
   return (
     <>
       <div className="My_account p-4   ">
-        <h2 className="d-none d-lg-block">My account</h2>
+        <h2 className=" text-center text-lg-start ">My account</h2>
         <form action="" className=" py-3   ">
           <div className="  text-center mb-4">
             <FaUser className="  icon rounded-circle  " />

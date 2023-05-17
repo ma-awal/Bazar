@@ -6,6 +6,10 @@
   font-weight: 600;
   color: var(--color-light-3) !important;
 }
+
+.My_account .input_form div {
+  margin-bottom: 1.5rem;
+}
 .My_account .icon {
   font-size: var(--text-2xl);
   width: 60px;
@@ -15,14 +19,11 @@
   padding: 0.5rem;
 }
 
-.My_account .input_filed {
-  line-height: 3rem;
-}
-
 .My_account label {
   color: var(--color-light-3);
   font-size: var(--text-base);
   font-weight: var(--fw-600);
+  margin-bottom: 0.5rem;
 }
 .My_account input {
   border: 1px solid var(--color-light-1);
@@ -49,7 +50,13 @@
   }
   .My_account label {
     font-size: var(--text-sm);
+    margin-bottom: 0.2rem;
   }
-  .My_account .input_filed {
+  .My_account .input_form div {
+    margin-bottom: 1rem;
+  }
+  .My_account h2 {
+    font-weight: 600;
+    font-size: 22px !important;
   }
 }

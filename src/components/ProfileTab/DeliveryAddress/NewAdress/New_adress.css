@@ -8,19 +8,16 @@
   font-size: var(--text-base);
 }
 
-.New_adress .input_filed {
-  line-height: 3rem;
-}
-
 .New_adress label {
   color: var(--color-light-3);
   font-size: var(--text-base);
   font-weight: var(--fw-500);
+  margin-bottom: 0.5rem;
 }
 
 .New_adress input {
   border: 1px solid var(--color-light-1);
-  border-radius: 0 !important;
+
   background: var(--color-white-2) !important;
   font-size: var(--text-sm);
   font-weight: var(--fw-400);
@@ -34,7 +31,7 @@
 .New_adress button {
   margin-top: 3rem;
   background: var(--color-green) !important;
-  font-size: var(--text-lg);
+  font-size: var(--text-base);
   font-weight: var(--fw-500);
   color: var(--color-white-2) !important;
 }
@@ -60,15 +57,21 @@
   padding: 0 !important;
   margin: 0 !important;
 }
-
+.New_adress .input_form div {
+  margin-bottom: 1.5rem;
+}
 @media (max-width: 768px) {
   .New_adress input {
     padding: 0.2rem 0.3rem;
   }
-  .New_adress label {
+  .New_adress .input_form label {
     font-size: var(--text-sm);
+    margin-bottom: 0.2rem;
   }
-  .New_adress .input_filed {
-    line-height: 2.5rem;
+  .New_adress .input_form div {
+    margin-bottom: 1rem;
+  }
+  .New_adress h2 {
+    font-size: 22px;
   }
 }

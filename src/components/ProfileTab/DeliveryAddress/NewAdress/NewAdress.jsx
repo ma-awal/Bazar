@@ -7,7 +7,7 @@ const NewAdress = (props) => {
   return (
     <>
       <div className="New_adress p-4  col-12  ">
-        <h2 className="d-none d-lg-block  ">New Delivery Address</h2>
+        <h2 className="   ">New Delivery Address</h2>
         <p className=" ">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quo
           <br />
@@ -72,7 +72,7 @@ const NewAdress = (props) => {
               </button>
             </div>
             <button className="   btn btn-sm " type="submit">
-              Save Change
+              Save
             </button>
           </div>
         </form>
